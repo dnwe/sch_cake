@@ -972,4 +972,8 @@ enum {
 	CAKE_ATM_MAX
 };
 
+#ifndef TCQ_ETS_MAX_BANDS
+#define TCQ_ETS_MAX_BANDS 16
+#endif
+
 #endif
